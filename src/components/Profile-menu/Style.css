@@ -1,0 +1,90 @@
+.profile-menu-middle{
+    position:absolute;
+    /* width: 150px; */
+    /* height: 200px; */
+    right:22%;
+    /* padding: 50px 0;
+    text-align: center;
+    background-color: lightblue; */
+    /* margin-top: 20px; */
+    top: 11%;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 5px;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+.profile-user-details-img img{
+    width: 55px;
+    border-radius: 50%;
+}
+.profile-user-details{
+    padding: 8px 15px 2px 15px;
+    display: flex;
+}
+.profile-user-details-main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+.profile-user-details-name{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.profile-user-details-about{
+    font-size: 14px;
+    color: rgb(52, 52, 52);
+}
+.view-profile-btn{
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    border: 1px solid #0a66c2;
+    color: #0a66c2;
+    border-radius: 20px;
+}
+.view-profile-btn:hover{
+    background-color: #e5ebf3;
+    border: 2px solid #0a66c2;
+    cursor: pointer;
+}
+.view-profile-btn h5{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+.account{
+    padding: 12px;
+}
+.account h5{
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+.account-information-opt{
+    display: flex;
+    padding: 3px 0 3px 0;
+}
+.account-information-opt span{
+    padding-left: 3px;
+    color: rgba(0, 0, 0, 0.6)
+}
+.account-information-opt:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.premium-opt span{
+    font-weight: 600;
+}
+.premium-opt span:hover{
+    color: #0a66c2;
+}
+.premium-opt:hover{
+    text-decoration: none;
+}
+.sign-out{
+    padding: 7px 0 7px 10px;
+}
